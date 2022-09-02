@@ -1,0 +1,312 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #eeeeee;
+}
+
+.carousel{
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+    
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+.d-block {
+    display: block!important;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-caption h3, .card-title{
+    font-weight: bold;
+}
+
+.another{
+    border-radius:15px;
+    margin-top: -80px;
+    box-shadow: 0 3px 3px #e7e7e7;
+}
+
+.container-fluid{
+    width: 98%;
+}
+
+.custom-select, .form-control{
+    background-color: white; 
+    border-top:0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    border-color: #cfcfcf;
+}
+.first{
+    padding-top: 30px;
+}
+.location, select{
+    color: #6a6a6a;
+}
+
+.form-control, .custom-select, .location button{
+    width: 300px;
+    height: 35px;
+}
+
+
+input[type="date"]::before {
+	color: #b0b0b0;
+	content: attr(placeholder);
+}
+input[type="date"] {
+	color: #ffffff;
+}
+input[type="date"]:focus,
+input[type="date"]:valid {
+  width: 300px;
+	color: #666666;
+}
+input[type="date"]:focus::before,
+input[type="date"]:valid::before {
+	content: "" !important;
+}
+
+button.btn-primary:hover {
+    background-color: white;
+    border: 2px solid #0d6efd;
+    color: #0d6efd;
+}
+
+.hotels{
+   padding-top: 30px;
+   width: 1400px;
+   margin-left: -50px;
+}
+
+.text-muted li {
+    float: left;
+    list-style-type: disc;
+    margin-right: 20px;
+    list-style-position: outside;
+ }
+
+ .card-text, .text-muted{
+    color: #565656!important;
+ }
+
+.card a.btn-primary{
+    background-color: white;
+    color: #0d6efd;
+    font-weight: bold;
+    border: 2px solid #0d6efd;
+    border-radius:10px;
+    font-size: 12px;
+}
+
+.card img{
+    height: 300px;
+}
+
+.card{
+    box-shadow: 0 3px 3px #e7e7e7;
+    border-bottom-right-radius: 15px ;
+    border-bottom-left-radius: 15px;
+}
+
+.pagination{
+    padding: 20px;
+}
+
+/* .page-item:first-child .page-link {
+} */
+
+.page-item:first-child .page-link {
+    border-radius:100px;
+    font-weight: bold;
+}
+.page-item .page-link{
+    color: gray;
+    border-radius:100px;
+}
+
+.page-item:last-child .page-link {
+    border-radius:100px;
+    font-weight: bold;
+}
+
+footer .container-fluid{
+    width: 100%;
+    padding: 100px 200px 0 200px;
+    color: #2e2e2e;
+    font-weight: bold;
+}
+
+.name{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer .info a{
+    color:#2e2e2e;
+}
+footer .info a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+footer .info a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.rights{
+    font-weight: normal;
+    color: #565656;
+    text-align:center;
+    font-size: 12px;
+}
+
+.icons .fa {
+    font-size: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+    color:#666362;
+}
+
+.im1 {
+    background-image:url(https://cdn.wallpapersafari.com/3/99/jKIikZ.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.ihv {
+    opacity:0;
+    transition-duration:1.25s;
+}
+.ihv:hover {
+    opacity:1;
+}
+
+.im2 {
+    background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/3baa6454903837.596e6edb115db.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.im3 {
+    background-image:url(https://www.davincilifestyle.com/wp-content/uploads/2020/05/luxury-pool-design.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.im4 {
+    background-image:url(https://cf.bstatic.com/images/hotel/840x460/360/360045166.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.im5 {
+    background-image:url(https://lata-nordic.com/wp-content/uploads/2019/12/Villas-in-Mexico-720x360.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.im6 {
+    background-image:url(https://www.vismayamvfx.com/wp-content/uploads/2018/05/beautiful-interior-design-beautiful-house-interior-amazing-perfect-beautiful-house-interior-design-within-house-beautiful-interior-designs-for-small-bedrooms.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+  .wrapper a{
+    text-decoration: none;
+    position: relative;
+    transition: all .35s;
+    background-color: white;
+    color: #0d6efd;
+    font-weight: bold;
+    border: 2px solid #0d6efd;
+    border-radius:10px;
+    font-size: 12px;
+  }
+  
+  .wrapper a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .wrapper a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #0d6efd;
+    transition: all .35s;
+    border-radius:10px;
+  }
+  
+  .wrapper a:hover{
+    color: #fff;
+  }
+  
+  .wrapper a:hover:after{
+    width: 100%;
+  }
+
+  .ani span{
+    position: relative;
+    display: inline-flex;;
+  }
+  .ani span a{
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;  
+  }
+  .ani span a:before,
+  .ani span a:after{
+    background-color: white;
+    color: #0d6efd;
+    font-weight: bold;
+    border: 2px solid #0d6efd;
+    border-radius:10px;
+    font-size: 12px;
+  }
+
+.ani span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
